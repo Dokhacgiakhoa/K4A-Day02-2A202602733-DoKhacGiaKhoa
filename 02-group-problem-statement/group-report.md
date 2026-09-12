@@ -246,7 +246,7 @@ Nhưng các bước đi theo trình tự cố định, không cần AI tự lậ
 **Mức chọn:**
 
 ```text
-Workflow (AI hỗ trợ một vài bước), kèm một ít Rule cho bước tải & đọc theo mục lục.
+Workflow (AI hỗ trợ một vài bước), kèm một ít Rule cho bước đọc theo mục lục.
 ```
 
 **Vì sao chọn (3-4 câu):**
@@ -260,8 +260,8 @@ Bài toán cần AI hiểu và cô đọng ngôn ngữ (Rule không làm đượ
 **Vì sao không chọn mức đơn giản hơn (2-3 câu):**
 
 ```text
-Chỉ dùng Rule (checklist, tải sẵn slide) không giải được bottleneck cốt lõi là "cô đọng
-50-100 trang thành ý chính", vì Rule không hiểu ngữ nghĩa. Nên cần AI ở bước tóm tắt.
+Chỉ dùng Rule (đọc theo mục lục/tiêu đề, giới hạn thời gian) không giải được bottleneck cốt
+lõi là "cô đọng 50-100 trang thành ý chính", vì Rule không hiểu ngữ nghĩa. Nên cần AI ở bước tóm tắt.
 ```
 
 ### 6.2. Problem Statement v1 (v0 sửa chặt hơn + 3 field cuối)
@@ -282,7 +282,7 @@ Chỉ dùng Rule (checklist, tải sẵn slide) không giải được bottlenec
 
 | Câu hỏi | Yes / Not Yet / No | Ghi chú (câu đầy đủ) |
 |---|---|---|
-| Actor + workflow rõ chưa? | Yes | Actor và 5 bước workflow trước/sau đã rõ. |
+| Actor + workflow rõ chưa? | Yes | Actor và workflow trước (5 bước) / sau (6 bước) đã rõ. |
 | Baseline + metric đo được chưa? | Yes | Baseline >120', mục tiêu ~45', đo bằng bấm giờ + đối chiếu slide. |
 | Data/input đủ dùng chưa? | Yes | Slide có sẵn mỗi tối trên Vlearn. |
 | AI sai, hậu quả chấp nhận được không? | Yes | Hậu quả là hiểu nhầm 1 phần, phát hiện được khi kiểm và mở slide gốc. |
@@ -324,8 +324,8 @@ Nếu chưa Go: cần survey rộng hơn để xác nhận % học viên gặp p
 **Nếu No-Go — làm gì thay AI:**
 
 ```text
-Áp dụng Rule/process fix: tải sẵn slide để khỏi chờ load, đọc theo mục lục/tiêu đề, giới hạn
-thời gian mỗi phần — chấp nhận nắm ít ý hơn nhưng không phụ thuộc AI.
+Áp dụng Rule/process fix: đọc trực tiếp theo mục lục/tiêu đề trên Vlearn, giới hạn thời gian
+mỗi phần — chấp nhận nắm ít ý hơn nhưng không phụ thuộc AI.
 ```
 
 **Exit / rollback (khi nào dừng AI, quay về cách cũ):**

@@ -46,7 +46,7 @@ VD: điều phối hội tụ + viết workflow trước/sau và Problem Stateme
 | Scan | Brainstorm rộng các vấn đề theo bối cảnh học viên AI full-time | Mở góc nhìn, gợi cả pain tiềm ẩn (thiếu tiền, học AI hiệu quả) | Đưa nhiều vấn đề chung chung không phải pain thật của tôi | Loại các việc tôi đã tự xử ~90%, chỉ giữ pain thật + tự thêm số liệu thật |
 | Problem Card | Dựng cấu trúc card + phản biện điểm yếu | Đủ field, gợi metric đo được | Giả định workflow chưa khớp thực tế của tôi | Điền lại workflow + số thật (50–100 trang, 2 tiếng, chờ tải slide) |
 | Workflow | Vẽ ASCII workflow trước/sau | Có khung nhanh, thấy rõ bottleneck | Ước lượng thời gian từng bước chưa chuẩn | Chỉnh thời gian theo trải nghiệm thật buổi tối của tôi |
-| Research | Gợi ý tool có sẵn (NotebookLM, ChatPDF, Mapify) | Biết không cần build tool mới, chỉ thiết kế workflow | Chưa verify link + độ chính xác của tool | Ghi rõ "cần kiểm link", đưa việc kiểm chứng cho nhóm làm thật |
+| Research | Gợi ý tool có sẵn (AI vision Claude/ChatGPT/Gemini, NotebookLM, Mapify) | Biết không cần build tool mới, chỉ thiết kế workflow | Ban đầu gợi tool cần tải file, chưa hợp với slide Vlearn không tải được | Chuyển sang AI đọc thẳng ảnh chụp; ghi rõ "cần kiểm link" |
 | Problem Statement | Dựng v0/v1 + phản biện field mơ hồ | Chỉ ra "nắm ý chính" chưa đo được | Boundary ban đầu còn chung chung | Thêm cách đo % ý chính + làm rõ boundary làm/không làm |
 | Rule / Workflow / Agent | So sánh 3 mức trên cùng bài | Lập luận vì sao Workflow đủ, chưa cần Agent | Có xu hướng liệt kê dài dòng | Tự xác nhận chọn Workflow vì các bước đi thẳng, có người kiểm |
 | Decision | Gợi khung pilot + điều kiện rollback | Có pilot đo 3 số cụ thể | — | Tự quyết Go dựa trên chi phí thử thấp + rủi ro kiểm soát được |
