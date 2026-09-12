@@ -28,17 +28,17 @@ Học viên toàn thời gian mỗi tối chỉ có ~2 tiếng nhưng phải đ�
 
 | # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh của nhóm |
 |---|---|---|---|---|---|
-| 1 | Nhóm trưởng | Đọc trước 50–100 trang slide/tối trong ~2 tiếng | Bản thân + cả lớp | Khối lượng đọc vượt quỹ thời gian; slide nặng, load lâu | Rất phổ biến, đo được — mạnh |
-| 2 | Nhóm trưởng | Không thấy trước lộ trình, chỉ nhận tài liệu ngày hôm sau | Bản thân + cả lớp | Chỉ thấy trước ~1 ngày, khó chọn track/target | Đúng pain nhưng phụ thuộc BTC |
-| 3 | Nhóm trưởng | Vẽ workflow/diagram tốn vài tiếng–nửa ngày | Bản thân + nhóm | Khó tư duy hệ thống + cầu toàn trình bày | Hơi cá nhân |
-| 4 | TV2 | Ôn/tổng hợp kiến thức từ nhiều nguồn rời rạc | Bản thân | Thông tin ở slide/video/Discord/notes | Gần với bài đọc slide |
-| 5 | TV2 | Tìm lại thông tin/quyết định cũ trong Discord | Cả lớp | Không có nơi tra cứu tập trung | Phổ biến |
-| 6 | TV3 | Setup môi trường/công cụ mới mỗi tuần hay lỗi | Bản thân | Cài đặt, API key, git lỗi vặt | Đã tự giải ~90%, ít đau |
-| 7 | TV3 | Quản lý nhiều deadline song song (cá nhân + nhóm) | Bản thân | Không theo dõi tập trung | Vừa phải |
-| 8 | TV4 | Phân công & theo dõi tiến độ project nhóm buổi tối | Cả nhóm | Ai làm gì, tới đâu không rõ | Vừa phải |
-| 9 | TV4 | Thông báo quan trọng trôi giữa nhiều kênh | Cả lớp | Không có 1 kênh thông báo chung | Phổ biến |
+| 1 | Đỗ Khắc Gia Khoa | Đọc trước 50–100 trang slide/tối trong ~2 tiếng | Bản thân + cả lớp | Khối lượng đọc vượt quỹ thời gian; slide nặng, load lâu | Rất phổ biến, đo được — mạnh |
+| 2 | Đỗ Khắc Gia Khoa | Không thấy trước lộ trình, chỉ nhận tài liệu ngày hôm sau | Bản thân + cả lớp | Chỉ thấy trước ~1 ngày, khó chọn track/target | Đúng pain nhưng phụ thuộc BTC |
+| 3 | Đỗ Khắc Gia Khoa | Vẽ workflow/diagram tốn vài tiếng–nửa ngày | Bản thân + nhóm | Khó tư duy hệ thống + cầu toàn trình bày | Hơi cá nhân |
+| 4 | Vũ Đình Đăng | Ôn/tổng hợp kiến thức từ nhiều nguồn rời rạc | Bản thân | Thông tin ở slide/video/Discord/notes | Gần với bài đọc slide |
+| 5 | Vũ Đình Đăng | Tìm lại thông tin/quyết định cũ trong Discord | Cả lớp | Không có nơi tra cứu tập trung | Phổ biến |
+| 6 | Nguyễn Chí Công | Setup môi trường/công cụ mới mỗi tuần hay lỗi | Bản thân | Cài đặt, API key, git lỗi vặt | Đã tự giải ~90%, ít đau |
+| 7 | Nguyễn Chí Công | Quản lý nhiều deadline song song (cá nhân + nhóm) | Bản thân | Không theo dõi tập trung | Vừa phải |
+| 8 | Hoàng Trung Anh | Phân công & theo dõi tiến độ project nhóm buổi tối | Cả nhóm | Ai làm gì, tới đâu không rõ | Vừa phải |
+| 9 | Vũ Đức Minh | Thông báo quan trọng trôi giữa nhiều kênh | Cả lớp | Không có 1 kênh thông báo chung | Phổ biến |
 
-> Ghi chú: nhóm thay tên TV2/TV3/TV4 bằng tên thật và bổ sung/sửa candidate cho khớp bài các bạn thực sự pitch.
+> Ghi chú: bảng candidate là bản dựng của nhóm trưởng; bổ sung/sửa cho khớp đúng bài từng bạn thực sự pitch trong buổi.
 
 ### 3.2. Gom trùng / cluster (gom 9-12 ý thành 3-4 cụm)
 
