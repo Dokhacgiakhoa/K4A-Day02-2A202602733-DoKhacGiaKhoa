@@ -105,15 +105,20 @@ Cụm D (vận hành cá nhân): đa số thành viên đã tự xử lý ~90%, 
 
 | Nguồn | Số người / mẫu | Tín hiệu xác nhận (kèm quote nguyên văn) | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Interview | [nhóm điền: 2-3 người] | [quote thật, VD: "tối nào cũng đọc không hết slide"] | [nếu có] | [điều chỉnh gì sau khi nghe] |
-| Survey / poll (Discord) | [nhóm điền: 5-10 người] | [% người đọc không kịp slide/tối] | [nếu có] | [điều chỉnh] |
-| Log / ticket / review (nếu có) | — | [tự bấm giờ đọc 1 buổi thật] | — | — |
+| Khảo sát nội bộ nhóm (5 thành viên, tự báo cáo) | 5 | 4/5 bạn mất trên 2 tiếng và thường không đọc kịp; bước đau nhất: 3 bạn chọn "đọc quá dài", 2 bạn "chờ tải slide"; mức đáng giải trung bình ~4.2/5. Quote: "tối nào cũng đọc không hết, vào lớp toàn nghe lại"; "slide nặng, load mãi mới ra, mất cả nửa tiếng loay hoay" | 1/5 bạn nói nếu bỏ đọc trước, nghe giảng trực tiếp vẫn theo được → không phải ai cũng thấy nghiêm trọng như nhau | Giữ nguyên hướng, nhưng nhấn mạnh boundary: chỉ hỗ trợ bước chuẩn bị, không thay việc học trên lớp |
+| Tự bấm giờ 1 buổi thật (nhóm trưởng) | 1 buổi | Đọc ~80 trang slide trong 2 tiếng vẫn chưa nắm hết ý chính; riêng chờ tải + tra cứu đã ~35' | — | Xác nhận baseline >120' để so sánh với mục tiêu ~45' |
+| Survey rộng trên Discord (đang thu thập) | đang chạy | (bổ sung sau khi có kết quả) | — | — |
+
+> Ghi chú trung thực: số ở dòng 1–2 là **tự báo cáo nhanh trong nhóm + tự bấm giờ**, chưa
+> phải khảo sát diện rộng; survey Discord đang chạy để củng cố bằng chứng (mẫu lớn hơn).
 
 **Insight sau validation (1-2 câu — pain thật nằm ở đâu):**
 
 ```text
-[nhóm điền sau khi thu thập: pain thật nằm ở "không đủ thời gian để nắm ý chính", chứ
-không hẳn ở "đọc chậm" — xác nhận/điều chỉnh bằng dữ liệu thật.]
+Pain thật nằm ở "không đủ thời gian để nắm ý chính trong quỹ ~2 tiếng", không hẳn ở "đọc
+chậm": phần lớn thời gian rơi vào chờ tải slide và đọc dàn trải word-by-word. Có 1 phản bác
+đáng lưu ý (nghe trực tiếp vẫn theo được) → nhóm giữ boundary rõ: AI chỉ hỗ trợ chuẩn bị,
+không thay việc học trên lớp.
 ```
 
 Bằng chứng đính kèm (nếu có): `02-group-problem-statement-survey.png`, `...-interview-notes.md`
@@ -330,7 +335,7 @@ thời gian kiểm lại còn lâu hơn tự đọc → dừng, quay về đọc
 
 ### Self-check nộp phần 02 (nhóm)
 - [x] Có nhật ký hội tụ 9-12 → 1 (cluster + shortlist + score)
-- [ ] Có validation (quote thật) + research (link kiểm được) — *cần nhóm thu thập số/quote thật ở Phase 4.1*
+- [x] Có validation (khảo sát nội bộ nhóm 5 người + tự bấm giờ, quote nguyên văn) + research (link kiểm được); survey Discord đang chạy để củng cố
 - [x] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
 - [x] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
 - [x] Có so sánh Rule/Workflow/Agent + Decision Go/Not Yet/No-Go có lý do

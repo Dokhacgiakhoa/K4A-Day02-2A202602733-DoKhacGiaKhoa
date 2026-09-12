@@ -4,8 +4,8 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
+- Họ và tên: Đỗ Khắc Gia Khoa
+- Mã học viên: 2A202602733
 - Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Học viên toàn thời gian chương trình AI thực chiến VinUni (12 tuần, tháng 9–12), hiện không đi làm
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
   - Mỗi ngày dự 1 lab + 1 lec, đọc trước 50–100 trang slide vào buổi tối
