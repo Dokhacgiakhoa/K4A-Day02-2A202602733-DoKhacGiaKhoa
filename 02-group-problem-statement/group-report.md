@@ -127,18 +127,19 @@ Bằng chứng đính kèm (nếu có): `02-group-problem-statement-survey.png`,
 
 | Nguồn / tool / case | Link | Họ giải quyết bước nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Google NotebookLM | notebooklm.google.com | Upload slide → hỏi đáp + tóm tắt theo nguồn | Trả lời bám tài liệu, trích dẫn nguồn | Cần upload; vẫn có thể bỏ sót ý; cần người kiểm | Dùng để tóm tắt + hỏi nhanh chỗ khó |
-| ChatPDF / AskYourPDF | chatpdf.com | Chat trực tiếp với file slide PDF | Nhanh, hỏi từng phần | Giới hạn dung lượng free; dễ trả lời chung | Hợp bước tra cứu nhanh trong lúc đọc |
-| Mapify / Gamma | mapify.so | Sinh mindmap/sơ đồ từ tài liệu | Trực quan hóa keyword nhanh | Cấu trúc auto chưa chắc đúng trọng tâm | Dùng cho bước tạo mindmap keyword |
+| Claude / ChatGPT / Gemini (vision) | claude.ai / chatgpt.com / gemini.google.com | Đọc thẳng ẢNH chụp slide → tóm tắt + tạo mindmap keyword (Mermaid) + giải thích | Nhận ảnh trực tiếp, không cần tải file; tùy chỉnh linh hoạt | Đọc sai chữ nhỏ/công thức; giới hạn số ảnh mỗi lần | Công cụ chính vì slide chỉ chụp được, không tải về |
+| Google NotebookLM | notebooklm.google.com | Tóm tắt + hỏi đáp theo nguồn | Bám tài liệu, trích dẫn nguồn | Cần nạp nguồn (khó vì không tải file được) | Chỉ dùng khi có bản text/ảnh nạp được |
+| Mapify / Gamma | mapify.so | Sinh mindmap/sơ đồ từ nội dung | Trực quan hóa keyword nhanh | Cấu trúc auto chưa chắc đúng trọng tâm | Dùng cho bước tạo mindmap keyword |
 
 > Lưu ý: **kiểm lại link trước khi nộp**, không dùng số liệu AI đưa nếu không verify được link chính thức. Ghi rõ giả định chưa chắc.
 
 **Research takeaway (2-3 câu — nên build gì / không build gì):**
 
 ```text
-Không cần build tool mới — đã có sẵn công cụ tóm tắt tài liệu và tạo mindmap.
-Việc của nhóm là thiết kế một WORKFLOW dùng chúng đúng cách: tóm tắt → mục lục → mindmap
-keyword → người tự kiểm lại phần quan trọng, kèm quy ước phần nào bắt buộc đọc slide gốc.
+Không cần build tool mới — các AI đa phương thức (Claude/ChatGPT/Gemini) đọc thẳng được ảnh
+chụp slide, khớp với ràng buộc "slide chỉ xem/chụp, không tải về được" của Vlearn.
+Việc của nhóm là thiết kế WORKFLOW dùng chúng đúng cách: chụp màn hình → AI đọc ảnh, tóm tắt
+→ mục lục → mindmap keyword → người tự kiểm lại phần quan trọng bằng slide gốc.
 ```
 
 ---
@@ -173,9 +174,11 @@ và đọc word-by-word. Kết quả là đọc không kịp hoặc hời hợt,
 Phải nhìn ra 5 thứ: bước nào máy (Rule), bước nào AI, bước nào người, boundary ở đâu, fallback khi AI sai.
 
 ```text
-[Tải slide về / đưa vào tool: 5' - người] → [AI tóm tắt + tạo mục lục & mindmap keyword: 3' - AI] → [AI giải thích nhanh chỗ khó: 2' - AI] → [Đọc theo keyword + tự kiểm lại phần quan trọng: 25' - người, BOUNDARY] → [Ghi câu hỏi mang tới lớp: 10' - người]
+[Xem slide trực tiếp + chụp màn hình các trang: 10' - người] → [Đưa ảnh vào AI đa phương thức (Claude/ChatGPT/Gemini vision): 2' - người] → [AI đọc ảnh, tóm tắt + tạo mục lục & mindmap keyword: 3' - AI] → [AI giải thích nhanh chỗ khó: 2' - AI] → [Đọc theo keyword + tự kiểm lại phần quan trọng bằng cách xem lại slide gốc trên Vlearn: 20' - người, BOUNDARY] → [Ghi câu hỏi mang tới lớp: 8' - người]
 
-Fallback: AI tóm tắt sai/thiếu → mở lại đúng phần slide gốc để tự đọc.
+Lưu ý ràng buộc: slide trên Vlearn KHÔNG tải về được, chỉ xem trực tiếp hoặc chụp màn hình → input cho AI là ẢNH chụp, cần AI đọc được hình.
+
+Fallback: AI đọc ảnh sai/thiếu (chữ nhỏ, công thức) → xem lại đúng phần slide gốc trên Vlearn.
 ```
 
 **Before/after impact:**
@@ -183,10 +186,10 @@ Fallback: AI tóm tắt sai/thiếu → mở lại đúng phần slide gốc đ�
 | Metric | Trước | Sau kỳ vọng | Cách đo |
 |---|---:|---:|---|
 | Tổng thời gian | >120' (không kịp trong 2h) | ~45' | Bấm giờ 1 buổi thật |
-| Số bước | 5 | 5 (nhưng nhẹ hơn) | Đếm |
-| Số bước thủ công | 5 | 2 (đọc-kiểm + ghi chú) | Đếm bước người làm |
-| Bottleneck chính | Đọc word-by-word 60'+ | Đọc theo keyword 25' | Bấm giờ bước đọc |
-| Risk mới | — | Tin sai bản tóm tắt AI | Đếm lỗi tóm tắt/buổi |
+| Số bước | 5 | 6 (thêm bước chụp màn hình) | Đếm |
+| Số bước thủ công | 5 | 3 (chụp + đọc-kiểm + ghi chú) | Đếm bước người làm |
+| Bottleneck chính | Đọc word-by-word 60'+ | Đọc theo keyword 20' | Bấm giờ bước đọc |
+| Risk mới | — | AI đọc sai ảnh (chữ nhỏ/công thức); tốn công chụp nhiều trang | Đếm lỗi tóm tắt/buổi + thời gian chụp |
 
 ### 5.3. Problem Statement v0 (mỗi field 2-3 câu)
 
@@ -229,8 +232,8 @@ Nhưng các bước đi theo trình tự cố định, không cần AI tự lậ
 
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? (Dùng cho bước nào?) |
 |---|---|---|---|---|
-| **Rule** | Tự lập checklist đọc theo tiêu đề/keyword, tải sẵn slide để khỏi chờ load | Khi chỉ cần bớt thời gian chờ + đọc có trọng tâm | Không hiểu ngữ nghĩa, không tóm tắt được nội dung | Dùng phụ: chuẩn hóa bước tải slide + đọc theo mục lục |
-| **Workflow** | AI tóm tắt + tạo mục lục & mindmap keyword + giải thích chỗ khó, người kiểm lại | Khi cần hiểu và cô đọng nội dung nhưng bước cố định | Tóm tắt sai/thiếu → hiểu nhầm | **CHỌN** — cho bước tóm tắt, mục lục, mindmap, giải thích |
+| **Rule** | Đọc theo mục lục/tiêu đề trực tiếp trên Vlearn, giới hạn thời gian mỗi phần (không tải slide về được) | Khi chỉ cần đọc có trọng tâm | Không hiểu ngữ nghĩa, không tóm tắt được nội dung | Dùng phụ: chuẩn hóa bước đọc theo mục lục |
+| **Workflow** | Chụp màn hình slide → AI đa phương thức đọc ảnh, tóm tắt + tạo mục lục & mindmap keyword + giải thích chỗ khó, người kiểm lại | Khi cần hiểu và cô đọng nội dung nhưng bước cố định | AI đọc ảnh sai/thiếu → hiểu nhầm | **CHỌN** — cho bước tóm tắt, mục lục, mindmap, giải thích |
 | **Agent** | Agent tự tìm slide, tự quyết đọc gì, tự tạo lịch ôn, gọi nhiều tool | Khi cần tự lập kế hoạch nhiều bước và tự rẽ nhánh | Quá mức cần thiết, khó kiểm soát, dễ sai mà khó phát hiện | Không chọn |
 
 **5 câu hỏi chốt (trả lời câu đầy đủ):**
@@ -266,14 +269,14 @@ Chỉ dùng Rule (checklist, tải sẵn slide) không giải được bottlenec
 | Field | Nội dung |
 |---|---|
 | **Actor** | Học viên toàn thời gian chương trình AI thực chiến, chuẩn bị bài buổi tối trước ngày học. |
-| **Workflow** | Vào Vlearn → tải/đưa slide vào tool → (AI) tóm tắt + mục lục + mindmap keyword + giải thích chỗ khó → đọc theo keyword & tự kiểm phần quan trọng → ghi câu hỏi mang tới lớp. |
+| **Workflow** | Vào Vlearn → xem slide + chụp màn hình các trang (không tải về được) → đưa ảnh vào AI đa phương thức → (AI) đọc ảnh, tóm tắt + mục lục + mindmap keyword + giải thích chỗ khó → đọc theo keyword & tự kiểm phần quan trọng bằng slide gốc trên Vlearn → ghi câu hỏi mang tới lớp. |
 | **Bottleneck** | 50–100 trang slide/tối vượt quỹ ~2 tiếng; chờ tải + đọc word-by-word khiến không kịp. |
 | **Impact** | Không kịp/hời hợt hằng ngày → vào lớp bị động; cải thiện sẽ nâng chất lượng tiếp thu cả 12 tuần. |
 | **Success Metric** | Thời gian chuẩn bị: >120' → ~45' (bấm giờ); % ý chính/keyword nắm được (đối chiếu slide gốc); số lỗi/thiếu của bản tóm tắt AI mỗi buổi. |
 | **Boundary** (làm / không làm) | LÀM: tóm tắt, mục lục, mindmap, giải thích chỗ khó cho bước chuẩn bị. KHÔNG làm: thay việc đọc nguyên văn định nghĩa/công thức chính xác, không thay học trên lớp, không tự ra quyết định học thay người. |
-| **AI intervention point** | Can thiệp **sau** bước tải slide, **trước** bước con người đọc-kiểm; người luôn là bước cuối duyệt nội dung. |
+| **AI intervention point** | Can thiệp **sau** bước chụp màn hình slide, **trước** bước con người đọc-kiểm; người luôn là bước cuối duyệt nội dung. |
 | **Mức chọn** | Workflow (AI hỗ trợ) + Rule phụ — vì cần AI hiểu ngôn ngữ nhưng các bước cố định, không cần Agent. |
-| **Rủi ro & người thật kiểm tra** | Rủi ro lớn nhất: bản tóm tắt AI sai/thiếu gây hiểu nhầm. Người kiểm: chính học viên tự đối chiếu phần quan trọng với slide gốc; nếu lệch → đọc gốc phần đó. |
+| **Rủi ro & người thật kiểm tra** | Rủi ro lớn nhất: AI đọc ảnh slide sai/thiếu (chữ nhỏ, công thức, biểu đồ) gây hiểu nhầm; phụ thêm là tốn công chụp nhiều trang. Người kiểm: chính học viên tự đối chiếu phần quan trọng với slide gốc trên Vlearn; nếu lệch → xem lại gốc phần đó. |
 
 ### 6.3. Final decision
 
@@ -304,10 +307,11 @@ Chi phí thử rất nhỏ (dùng tool free với slide 1 buổi), dễ đo kế
 
 ```text
 Data: slide của đúng 1 ngày (1 lab + 1 lec).
-Chạy tay: đưa slide vào NotebookLM/Claude → tạo mục lục + mindmap keyword + giải thích chỗ khó;
-1-2 thành viên dùng bản này để chuẩn bị, sau đó đối chiếu slide gốc.
-Đo 3 số: (1) thời gian chuẩn bị thực tế, (2) % ý chính/keyword nắm được so với slide gốc,
-(3) số lỗi/thiếu của bản tóm tắt AI trong buổi đó.
+Chạy tay: chụp màn hình các trang slide trên Vlearn → đưa ảnh vào AI đa phương thức
+(Claude/ChatGPT/Gemini) → tạo mục lục + mindmap keyword + giải thích chỗ khó; 1-2 thành
+viên dùng bản này để chuẩn bị, sau đó đối chiếu slide gốc trên Vlearn.
+Đo 3 số: (1) thời gian chuẩn bị thực tế (gồm cả thời gian chụp), (2) % ý chính/keyword nắm
+được so với slide gốc, (3) số lỗi/thiếu của bản AI đọc từ ảnh trong buổi đó.
 ```
 
 **Nếu Not Yet — cần validate gì trước:**

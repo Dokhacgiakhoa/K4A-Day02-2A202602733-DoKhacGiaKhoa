@@ -83,11 +83,12 @@ chất lượng tiếp thu suốt cả chương trình.
 Success metric: Từ "không đọc kịp / đọc hời hợt 50–100 trang trong 2h" → "nắm được ý
 chính + keywords của cả lab + lec trong ~45–60 phút, có mục lục và mindmap trực quan".
 
-Non-AI alternative: Tải sẵn slide về máy để khỏi chờ load; tự lập mục lục; đọc theo
-tiêu đề/keyword thay vì word-by-word.
+Non-AI alternative: Đọc theo mục lục/tiêu đề trực tiếp trên Vlearn (slide không tải về
+được), giới hạn thời gian mỗi phần thay vì đọc word-by-word.
 
-AI hypothesis: AI tóm tắt slide thành agenda/mục lục + mindmap keyword, highlight ý
-chính và giải thích nhanh chỗ khó → học theo keyword thay vì đọc từng chữ.
+AI hypothesis: Chụp màn hình slide → AI đa phương thức (Claude/ChatGPT/Gemini) đọc ảnh,
+tóm tắt thành agenda/mục lục + mindmap keyword, highlight ý chính và giải thích chỗ khó
+→ học theo keyword thay vì đọc từng chữ.
 
 Quick gut:
 [ ] No AI / process fix
@@ -110,13 +111,13 @@ CURRENT STATE — vượt quá 2 tiếng (không đủ)
 
 FUTURE STATE — ~45 phút
 
-[Đưa slide vào AI: 5']
-→ [AI tạo mục lục + mindmap keyword: 2']
-→ [AI tóm tắt ý chính + giải thích chỗ khó: 3']
-→ [Đọc theo keyword + review mindmap: 25']   <-- human boundary: tự kiểm ý AI, đánh dấu chỗ cần hỏi
-→ [Ghi câu hỏi mang tới buổi học: 10']
+[Chụp màn hình slide trên Vlearn: 10']
+→ [Đưa ảnh vào AI đa phương thức + AI tạo mục lục & mindmap keyword: 3']
+→ [AI tóm tắt ý chính + giải thích chỗ khó: 2']
+→ [Đọc theo keyword + review mindmap, tự kiểm bằng slide gốc: 20']   <-- human boundary
+→ [Ghi câu hỏi mang tới buổi học: 8']
 
-Fallback: AI tóm tắt sai/thiếu → mở lại đúng phần slide gốc để tự đọc
+Fallback: AI đọc ảnh sai/thiếu (chữ nhỏ/công thức) → xem lại đúng phần slide gốc trên Vlearn
 ```
 
 File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
