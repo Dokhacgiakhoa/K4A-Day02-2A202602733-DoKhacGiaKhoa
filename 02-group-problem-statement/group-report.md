@@ -6,7 +6,7 @@
 
 ## Thành viên nhóm
 
-**Nhóm số:** 1
+**Nhóm số:** E1
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
@@ -94,7 +94,10 @@ Cụm D (vận hành cá nhân): đa số thành viên đã tự xử lý ~90%, 
 **Disagreement (nếu có — ai lo gì, chốt ra sao):**
 
 ```text
-[nhóm điền: ai lo điểm gì khi họp, đã chốt bằng cách nào — nếu không có bất đồng thì ghi rõ]
+Có một chút băn khoăn: một bạn lo bài "đọc slide" nghiêng về công cụ tóm tắt hơn là một
+bài toán khó, và một bạn thấy candidate "lộ trình" (B2) ý nghĩa hơn. Nhóm chốt bằng bảng
+score 7 tiêu chí ở mục 3.4: bài đọc slide hơn rõ ở "làm được trong lab", "pain có evidence"
+và "impact đo được", nên cả nhóm đồng thuận chọn A1; giữ B2 làm hướng phát triển sau.
 ```
 
 ---
